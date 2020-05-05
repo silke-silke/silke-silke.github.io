@@ -28,14 +28,14 @@ font-weight: bold;
     }
     
     html {
-		 background: url(/btfls/pageblue/morebb.png) left top no-repeat scroll #323262;
+		 background: url(/btfls/pageblue/blackmore.png) left top no-repeat scroll #323262;
 	}
 
     body {
       cursor: pointer;
       margin: 0;
       padding: 0;
-	    background: url(/btfls/pageblue/border.png) left bottom repeat-y scroll #323262;
+	    background: url(/btfls/pageblue/blackborder.png) left bottom repeat-y scroll #323262;
 	  
 	  
 font-family: Lota Grotesque Alt 1 Regular;
