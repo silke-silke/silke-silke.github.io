@@ -10,10 +10,11 @@ font-weight: normal;
 
 }
 
+div .stroke {	padding-right:2000px;
+	padding-left:200px; min-width:500vw;}
 
 .stroke  {
-	padding-right:2000px;
-	padding-left:200px;
+
 min-width:100vw;
 font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
 font-style: normal;
