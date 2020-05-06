@@ -26,17 +26,16 @@ font-weight: bold;
       cursor: pointer;
       padding:0;margin:0;
     }
-    
     html {
-		 background: url(/btfls/pageblue/blackmore.png) left top no-repeat scroll #000;
+		 background: url(css/img/bg6.png) left top no-repeat scroll #9C7EC9 ;
 	}
 
     body {
       cursor: pointer;
       margin: 0;
       padding: 0;
-	    background: url(/btfls/pageblue/blackborder.png) left bottom repeat-y scroll #000;
-	  
+	    background: url(css/img/bg2.png) left bottom repeat-y scroll #9C7EC9;
+	  height:9000px;
 	  
 font-family: Lota Grotesque Alt 1 Regular;
       font-size: 16px;
@@ -293,7 +292,7 @@ margin:0.25em; color:black;
 padding:0.25em;border-radius: 12px;
 background-color:white;
 border:5px solid black;
-font-size:1.5em;font-family: "Lota Grotesque";font-weight:normal;        Font-size:2em; text-decoration: none;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
 
 }
 
@@ -303,7 +302,7 @@ nav a:hover { flex:auto;
 text-align: center;
 margin:0.25em;  
 animation:silver;
-animation-duration: 1s;
+animation-duration: 0.33s;
 animation-iteration-count: one;
 animation-fill-mode:both;
 background-image: none;
@@ -354,8 +353,8 @@ animation-iteration-count: infinite;
 
 	}
 				100% {
-		background-color:white;
-		color:#e86969;
+		background-color:pink;
+		color:white;
 	}
 	
 	
