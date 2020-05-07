@@ -35,7 +35,7 @@ html {
 }
 
 html {background-color:#9d80ca;
-	background: url('css/img/bg6.png') left top no-repeat scroll #9d80ca;
+	background: url('http://www.silke.xyz/css/img/bg6.png') left top no-repeat scroll #9d80ca;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 
 	margin: 0;
 	padding: 0;
-	background: url('css/img/bg2.png') left bottom repeat-y scroll #9d80ca;
+	background: url('http://www.silke.xyz/css/img/bg2.png') left bottom repeat-y scroll #9d80ca;
 	height: 9000px;
 	font-family: Lota Grotesque Alt 1 Regular;
 	font-size: 16px;
