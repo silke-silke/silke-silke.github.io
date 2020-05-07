@@ -18,7 +18,7 @@ div .stroke {	padding-right:2000px;
 min-width:100vw;
 font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: bold;font-size: 2em;
 
 }
     *,
@@ -26,17 +26,16 @@ font-weight: bold;
       cursor: pointer;
       padding:0;margin:0;
     }
-    
     html {
-		 background: url(/btfls/pageblue/redmore.png) left top no-repeat scroll #323262;
+		 background: url(css/img/bg6.png) left top no-repeat scroll red ;
 	}
 
     body {
       cursor: pointer;
       margin: 0;
       padding: 0;
-	    background: url(/btfls/pageblue/redborder.png) left bottom repeat-y scroll #323262;
-	  
+	    background: url(css/img/bg2.png) left bottom repeat-y scroll red;
+	  height:9000px;
 	  
 font-family: Lota Grotesque Alt 1 Regular;
       font-size: 16px;
@@ -82,68 +81,6 @@ padding: 10px;
 		border-top: 4px solid #0a0404;
 		border-bottom: 4px solid #080303;
 	}
-	
-	/*
-	
-	.butter {
-min-height: 90vh;
-/* equal to footer height *!/
-margin-bottom: -120px;
-}
-
-.butter:after {
-content: “”;
-display: block;
-}
-
-.butter, .butter:after {
-/* .push must be the same height as footer *!/
-height: 90vh;
-text-align: center;
-
-}*/
-
-    span {
-      margin: 0;
-      padding: 0;
-      background-color: #323262;
-      font-family: SteradianBlack, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    p {
-      font-family: AvantGarde-Medium, AlergiaWide-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    h4 {
-      font-family: AlergiaWide-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-
-    h5 {
-      font-family: Sequel100Black-55, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    h3 {
-      font-family: MazzardH-Black, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
 
     h2 {
 font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
@@ -152,134 +89,9 @@ font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
       color: black;
     }
 
-    h6 {
-      font-family: Galderglynn1884Db-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    h1 {
-      font-family: Nominee-Medium, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .david {
-      font-family: David, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .maria {
-      font-family: Maria Pro, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .modern {
-      font-family: ModernEra-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    .forma {
-      font-family: FormaDJRDisplay-Regular-Edu, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .favorit {
-      font-family: Favorit-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .basis {
-      font-family: BasisGrotesque-Medium, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .faktum {
-      font-family: FaktumTest-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .dia {
-      font-family: Dia-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .alerg {
-      font-family: AlergiaWide-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .urania {
-      font-family: Urania-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .system {
-      font-family: System85Trial-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-    .neueh {
-      font-family: Neue Haas Grotesk Text Pro 55 Roman, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    .neuea {
-      font-family: NeueAlteGrotesk-Regular, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    .munged {
-      font-family: Munged-NdVpRHtaTN, , sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
-    .HelveticaNeue {
-      font-family: HelveticaNeue, sans-serif;
-      font-size: 85pt;
-      font-weight: 600;
-      color: black;
-    }
-
-
 
     nav {
-      max-width:100vw;
+      max-width:98vw;
       display:flex;justify-content: space-between;
     flex-direction: row; 
 font-family: "Lota Grotesque";font-weight:normal;        Font-size:2em; text-decoration: none;
@@ -293,7 +105,7 @@ margin:0.25em; color:black;
 padding:0.25em;border-radius: 12px;
 background-color:white;
 border:5px solid black;
-font-size:1.5em;font-family: "Lota Grotesque";font-weight:normal;        Font-size:2em; text-decoration: none;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
 
 }
 
@@ -303,14 +115,13 @@ nav a:hover { flex:auto;
 text-align: center;
 margin:0.25em;  
 animation:silver;
-animation-duration: 1s;
+animation-duration: 0.33s;
 animation-iteration-count: one;
 animation-fill-mode:both;
 background-image: none;
 
 
 
-border-bottom:5px solid black;
 
 
 background-size: cover;
@@ -318,14 +129,14 @@ border-radius: 12px;
 padding:0.25em;
 /* font-size:1.5em; */
 color:silver;
-transition: all 1s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 
 
  .stroke  { color:black;
 	-webkit-text-stroke: 5px black; 
 text-stroke: 5px black;
- 	font: 3.7em "Lota Grotesque";
+ 	font: 2.7em "Lota Grotesque";
  	background-color:white; border-top:5px solid black; border-bottom:5px solid black;
 }
 
@@ -354,8 +165,8 @@ animation-iteration-count: infinite;
 
 	}
 				100% {
-		background-color:white;
-		color:#e86969;
+		background-color:red;
+		color:white;
 	}
 	
 	
@@ -400,56 +211,48 @@ animation-iteration-count: infinite;
 
 
 
-/* 
 
-    @media (max-width: 699px) {
 
-      nav {
-        font-size: 40pt;
-        width: 100vw;
-        display: block;
-        height: 15vh;
-        border: 0;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-      }
+    @media (max-width: 600px) {
 
-      .navbutton {
-        visibility: hidden;
-        cursor: pointer;
-        font-family: Favorit, sans-serif;
-         padding: 1vw; 
-        float: left;
-        min-width: 19vw;
-        max-width: 20.25vw;
-        justify-content: center;
-      }
 
-      .navbuttons {
-        visibility: visible;
-        cursor: pointer;
-        font-family: Favorit, sans-serif;
-        padding-left: 8vw;
-        padding-top: 1vw;
-        padding-bottom: 1vw;
-        padding-right: 1vw;
-        float: left;
-        justify-content: left;
 
-        width: 95vw;
-      }
-
-      .navbutton:hover {
-        cursor: pointer;
-        padding: 1vw;
-        float: left;
-        justify-content: center;
-        color: white;
-      }
+    nav {
+      max-width:98%;
+      display:flex;justify-content: space-around;
+    flex-direction: column; 
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.2em; text-decoration: none;
     }
- */
+
+ nav a { flex:auto; 
+  /* flex:1; */ 
+  text-decoration: none;
+text-align: center;
+margin:0.25em; color:black;
+padding:0.25em;border-radius: 12px;
+background-color:white;
+border:3px solid black;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
+
+}
+
+nav a:hover { flex:auto; 
+  /* flex:1; */ 
+  text-decoration: none;
+text-align: center;
+margin:0.25em;  
+animation:silver;
+animation-duration: 0.33s;
+animation-iteration-count: one;
+animation-fill-mode:both;
+background-image: none;
+background-size: cover;
+border-radius: 12px;
+padding:0.25em;
+transition: all 1s ease-in-out;
+}
+
+}
 
 
 
