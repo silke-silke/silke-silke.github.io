@@ -173,7 +173,7 @@ nav a {
  .stroke  { color:black;
 	-webkit-text-stroke: 5px black;
 text-stroke: 5px black;
- 	font: 2.7em "Lota Grotesque";
+ 	font: 2em "Lota Grotesque";
 	 background-color:white; border-top:5px solid black; border-bottom:5px solid black;}
 
 nav a:hover {
@@ -194,16 +194,6 @@ nav a:hover {
 	/* font-size:1.5em; */
 	color: silver;
 	transition: all 1s ease-in-out;
-}
-
-.stroke {
-	color: black;
-	-webkit-text-stroke: 5px black;
-	text-stroke: 5px black;
-	font: 2.7em "Lota Grotesque";
-	background-color: white;
-	border-top: 5px solid black;
-	border-bottom: 5px solid black;
 }
 
 h2,
