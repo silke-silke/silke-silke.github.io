@@ -1,8 +1,20 @@
 
 
 
+
+
+
+
+
+
+
+
+* {
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+}
+
 html {
-	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png'), auto;
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
 	padding: 0;
 	margin: 0;
 /* background-position:left top;
@@ -13,7 +25,7 @@ background-color:#9d80ca;
 }
 
 body {
-	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png'), auto;
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
 	background-color:#9d80ca;
 	margin: 0;
 	padding: 0;
@@ -80,7 +92,8 @@ font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
     }
 
 
-    nav {
+    nav {	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
       max-width:98vw;
       display:flex;justify-content: space-between;
     flex-direction: row;
@@ -95,7 +108,8 @@ margin:0.25em; color:black;
 padding:0.25em;border-radius: 12px;
 background-color:white;
 border:5px solid black;
-font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 
 }
 
@@ -149,14 +163,16 @@ nav a {
  .stroke  { color:black;
 	-webkit-text-stroke: 5px black;
 text-stroke: 5px black;
- 	font: 2em "Lota Grotesque";
+ 	font: 2em "Lota Grotesque";	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 	 background-color:white; border-top:5px solid black; border-bottom:5px solid black;}
 
 nav a:hover {
 	flex: auto;
 	/* flex:1; */
 	text-decoration: none;
-	text-align: center;
+	text-align: center;	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 	margin: 0.25em;
 	animation: silver;
 	animation-duration: 0.33s;
@@ -286,7 +302,8 @@ font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.2em; text-d
 text-align: center;
 margin:0.25em; color:black;
 padding:0.25em;border-radius: 12px;
-background-color:white;
+background-color:white;	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 border:3px solid black;
 font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
 
@@ -295,7 +312,8 @@ font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-
 nav a:hover { flex:auto;
   /* flex:1; */
   text-decoration: none;
-text-align: center;
+text-align: center;	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 margin:0.25em;
 animation:silver;
 animation-duration: 0.33s;
@@ -348,7 +366,8 @@ transition: all 1s ease-in-out;
 		flex: auto;
 		/* flex:1; */
 		text-decoration: none;
-		text-align: center;
+		text-align: center;	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
+
 		margin: 0.25em;
 		animation: silver;
 		animation-duration: 0.33s;
@@ -423,7 +442,7 @@ a.wiggle {
 }
 
 a:hover {
-	cursor: url('./css/pointer.png');
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/point1.png'), auto;
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
 	background-position: 0 100%;
 	background-size: auto 6px;
