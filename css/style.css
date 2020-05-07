@@ -2,7 +2,7 @@
 
 
 html {
-	cursor: src('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png');
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png'), auto;
 	padding: 0;
 	margin: 0;
 /* background-position:left top;
@@ -13,7 +13,7 @@ background-color:#9d80ca;
 }
 
 body {
-	cursor: src("https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png");
+	cursor: url('https://raw.githubusercontent.com/silke-silke/silke-silke.github.io/master/css/img/pointer.png'), auto;
 	background-color:#9d80ca;
 	margin: 0;
 	padding: 0;
