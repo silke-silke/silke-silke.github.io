@@ -2,7 +2,7 @@
 
 
 html {
-	cursor: url('./css/img/pointer.png');
+	cursor: url('css/img/pointer.png');
 	padding: 0;
 	margin: 0;
 /* background-position:left top;
@@ -13,7 +13,7 @@ background-color:#9d80ca;
 }
 
 body {
-	cursor: url('./css/img/pointer.png');
+	cursor: url('http://www.silke.xyz/css/img/pointer.png');
 	background-color:#9d80ca;
 	margin: 0;
 	padding: 0;
