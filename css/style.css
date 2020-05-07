@@ -1,51 +1,27 @@
-body,
-html,
-*,
-h2,
-nav,
-h1,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-}
 
-div .stroke {
-	padding-right: 2000px;
-	padding-left: 200px;
-	min-width: 500vw;
-}
 
-.stroke {
-	min-width: 100vw;
-	font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 2em;
-}
 
-*,
 html {
 	cursor: pointer;
 	padding: 0;
 	margin: 0;
-}
-
-html {background-color:#9d80ca;
-	background: url('http://www.silke.xyz/css/img/bg6.png') left top no-repeat scroll #9d80ca;
+background-position:left top;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-image: url('http://www.silke.xyz/css/img/bg6.png');
+background-color:#9d80ca;
 }
 
 body {
 	cursor: pointer;
 	background-color:#9d80ca;
-
 	margin: 0;
 	padding: 0;
-	background: url('http://www.silke.xyz/css/img/bg2.png') left bottom repeat-y scroll #9d80ca;
-	height: 9000px;
+	background-position:left bottom;
+	background-attachment:scroll;
+	background-repeat:repeat-y;
+	background-image: url('http://www.silke.xyz/css/img/bg2.png');
+	height: auto;
 	font-family: Lota Grotesque Alt 1 Regular;
 	font-size: 16px;
 	font-weight: 600;
