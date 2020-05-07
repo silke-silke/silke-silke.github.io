@@ -1972,46 +1972,6 @@
             color: inherit
         }
 
-        .bg-black-90 {
-            background-color: rgba(0, 0, 0, .9)
-        }
-
-        .bg-black-80 {
-            background-color: rgba(0, 0, 0, .8)
-        }
-
-        .bg-black-70 {
-            background-color: rgba(0, 0, 0, .7)
-        }
-
-        .bg-black-60 {
-            background-color: rgba(0, 0, 0, .6)
-        }
-
-        .bg-black-50 {
-            background-color: rgba(0, 0, 0, .5)
-        }
-
-        .bg-black-40 {
-            background-color: rgba(0, 0, 0, .4)
-        }
-
-        .bg-black-30 {
-            background-color: rgba(0, 0, 0, .3)
-        }
-
-        .bg-black-20 {
-            background-color: rgba(0, 0, 0, .2)
-        }
-
-        .bg-black-10 {
-            background-color: rgba(0, 0, 0, .1)
-        }
-
-        .bg-black-05 {
-            background-color: rgba(0, 0, 0, .05)
-        }
-
         .bg-white-90 {
             background-color: hsla(0, 0%, 100%, .9)
         }
@@ -2046,10 +2006,6 @@
 
         .bg-white-10 {
             background-color: hsla(0, 0%, 100%, .1)
-        }
-
-        .bg-black {
-            background-color: #000
         }
 
         .bg-near-black {
