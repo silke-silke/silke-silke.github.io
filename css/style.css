@@ -34,12 +34,14 @@ html {
 	margin: 0;
 }
 
-html {
-	background: url(css/img/bg6.png) left top no-repeat scroll #9C7EC9;
+html {background-color:#9d80ca;
+	background: url(css/img/bg6.png) left top no-repeat scroll #9d80ca;
 }
 
 body {
 	cursor: pointer;
+	background-color:#9d80ca;
+
 	margin: 0;
 	padding: 0;
 	background: url(css/img/bg2.png) left bottom repeat-y scroll #9C7EC9;
@@ -79,6 +81,48 @@ body {
 	right: 20px;
 	bottom: 20px;
 	float: right;
+<<<<<<< HEAD
+	}
+
+
+	.subh {
+		border-radius: 12px;
+padding: 10px;
+		color: black;
+		-webkit-text-stroke: 0px black;
+		font-weight: 700;
+		font: 1.6em "Lota Grotesque";
+		background-color: rgba(255, 255, 255, 0.75);
+		border-top: 4px solid #0a0404;
+		border-bottom: 4px solid #080303;
+	}
+
+    h2 {
+font-family: "Lota Grotesque Alt 1 Regular", sans-serif;
+      font-size: 85pt;
+      font-weight: 600;
+      color: black;
+    }
+
+
+    nav {
+      max-width:98vw;
+      display:flex;justify-content: space-between;
+    flex-direction: row;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:2em; text-decoration: none;
+    }
+
+ nav a { flex:auto;
+  /* flex:1; */
+  text-decoration: none;
+text-align: center;
+margin:0.25em; color:black;
+padding:0.25em;border-radius: 12px;
+background-color:white;
+border:5px solid black;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
+
+=======
 }
 
 .subh {
@@ -98,6 +142,7 @@ h2 {
 	font-size: 85pt;
 	font-weight: 600;
 	color: black;
+>>>>>>> 70ed8971604d516e923dce5b67d6c61edfaf3064
 }
 
 nav {
@@ -128,6 +173,13 @@ nav a {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
+ .stroke  { color:black;
+	-webkit-text-stroke: 5px black;
+text-stroke: 5px black;
+ 	font: 2.7em "Lota Grotesque";
+ 	background-color:white; border-top:5px solid black; border-bottom:5px solid black;
+=======
 nav a:hover {
 	flex: auto;
 	/* flex:1; */
@@ -146,6 +198,7 @@ nav a:hover {
 	/* font-size:1.5em; */
 	color: silver;
 	transition: all 1s ease-in-out;
+>>>>>>> 70ed8971604d516e923dce5b67d6c61edfaf3064
 }
 
 .stroke {
@@ -230,6 +283,81 @@ h2,
 	}
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 600px) {
+
+
+
+    nav {
+      max-width:98%;
+      display:flex;justify-content: space-around;
+    flex-direction: column;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.2em; text-decoration: none;
+    }
+
+ nav a { flex:auto;
+  /* flex:1; */
+  text-decoration: none;
+text-align: center;
+margin:0.25em; color:black;
+padding:0.25em;border-radius: 12px;
+background-color:white;
+border:3px solid black;
+font-family: "Lota Grotesque";font-weight:normal;        Font-size:1.25em; text-decoration: none;
+
+}
+
+nav a:hover { flex:auto;
+  /* flex:1; */
+  text-decoration: none;
+text-align: center;
+margin:0.25em;
+animation:silver;
+animation-duration: 0.33s;
+animation-iteration-count: one;
+animation-fill-mode:both;
+background-image: none;
+background-size: cover;
+border-radius: 12px;
+padding:0.25em;
+transition: all 1s ease-in-out;
+}
+
+}
+
+
+
+
+
+
+
+
+=======
 @media (max-width: 600px) {
 	nav {
 		max-width: 98%;
@@ -274,9 +402,10 @@ h2,
 		transition: all 1s ease-in-out;
 	}
 }
+>>>>>>> 70ed8971604d516e923dce5b67d6c61edfaf3064
 
 
-/* 
+/*
 
     @media (min-width: 700px) {
 
