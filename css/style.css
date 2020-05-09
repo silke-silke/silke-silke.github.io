@@ -49,6 +49,7 @@ body {
     order: 0;
     width: 30%;
     margin-right: 0.8em;
+    margin-bottom: 1em;
     flex: 0 1 auto;
     align-self: flex-start;
 }
@@ -59,6 +60,7 @@ body {
     flex: 1 2 auto;
     align-self: stretch;
 }
+
 
 .subh {
 
