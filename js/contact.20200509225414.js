@@ -1,0 +1,8 @@
+(function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
+$.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof attr !== typeof undefined && attr !== false; };
+
+
+$(document).ready(function() {
+$('form').h5Validate();setTimeout(function(){$('.js').prop('disabled',false);$("input[name='vpicqqyhqan']").attr('value', 'uaulamubqxjjiusdhiy');},1000);
+var lkp=0;var kpmi=999999;var kpma=0;var kpc=0;var kps=0;var kp=function(e){kpc++;if(lkp!=0){var t=Date.now()-lkp;kps+=t;if(t<kpmi){kpmi=t}if(t>kpma){kpma=t}var i=document.querySelectorAll("input[name='wndwffm']");for(j=0;j<i.length;++j){i[j].value=kpmi;}var i=document.querySelectorAll("input[name='bceodexrku']");for(j=0;j<i.length;++j){i[j].value=kpma;}var i=document.querySelectorAll("input[name='koskucygi']");for(j=0;j<i.length;++j){i[j].value=kps/kpc;}var i=document.querySelectorAll("input[name='xxeymlhmv']");for(j=0;j<i.length;++j){i[j].value=kpc;}}lkp=Date.now();};window.addEventListener('mousemove', function(e) {if(e.movementX==0&&e.movementY==0){if(e.shiftKey||e.altKey||e.ctrlKey) {kp(e)}}});var i=document.querySelectorAll("input[type=text]");for(j=0;j<i.length;++j)i[j].addEventListener("input",function(e){kp(e)});i=document.querySelectorAll("textarea");for(j=0;j<i.length;++j)i[j].addEventListener("input",function(e){kp(e)});
+});
